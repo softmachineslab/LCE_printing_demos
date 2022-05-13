@@ -1,8 +1,8 @@
 # Multi-Material Printing of Liquid Crystal Elastomers with Integrated Stretchable Electronics
 
-## Infrared (IR) Communication Demonstration Code
+## Michael R. Vinciguerra, Dinesh K. Patel, Wuzhou Zu, Carmel Majidi, Lining Yao
 
-### Michael R. Vinciguerra, Dinesh K. Patel, Wuzhou Zu, Carmel Majidi, Lining Yao
+### Infrared (IR) Communication Demonstration Code
 
 To run the code, you are going to need two Arduino boards. Both can be connected to the same computer, but the one running the decoding file needs to be the one communicating with the Arduino IDE. Make sure you are using Python3.
 
@@ -11,3 +11,7 @@ Make sure there is a resistor in series with the IR LED to ensure that the forwa
 To run the display code, you can follow [this tutorial](https://pythonforundergradengineers.com/python-arduino-potentiometer.html). It makes use of the `tkinter` Python library to capture and display the information from the serial monitor.
 
 If you want to change the message, you can directly edit the message in the `IR_Morse.ino` file.
+
+### LCE Crawler Demonstration Code
+
+See Figure S6 for the circuitry. Photo-resistors can be puchased from [Adafruit](https://www.adafruit.com/product/161).
